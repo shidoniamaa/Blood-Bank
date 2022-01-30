@@ -29,7 +29,7 @@ Route::group(['namespace'=>'Front'
     Route::get('client-register','AuthController@register' )->name('client-register');
     Route::post('client-register-save','AuthController@registerSave' )->name('client-register-save');
 
-    });
+});
 
 
 Auth::routes();
